@@ -1,0 +1,13 @@
+/* Home - Product */
+.products__product {
+  border-radius: var(--border-radius);
+  display: flex;
+
+  .products__product--link > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+
+  .products__product--heading {
+    font-size: 1.25rem;
+  }
+}

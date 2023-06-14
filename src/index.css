@@ -1,0 +1,72 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+  --border-radius: 0.25rem;
+  --dark-white: #fefffe;
+  --highlight-green: #8bdf83;
+  --link-hover-brightness: 0.85;
+  --padding: 1rem;
+  --primary-green: #3f6660;
+}
+
+/* Base Styling */
+body {
+  background: var(--highlight-green);
+  font-family: "Nunito Sans", sans-serif;
+  margin: 1rem;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Generic */
+.link {
+  background: var(--primary-green);
+  border-radius: var(--border-radius);
+  color: var(--dark-white);
+  display: block;
+  padding: var(--padding);
+  text-decoration: none;
+}
+
+.link:hover {
+  filter: brightness(var(--link-hover-brightness));
+  transition: filter 300ms;
+}
+
+.main-heading {
+  background: var(--primary-green);
+  border-radius: var(--border-radius);
+  color: var(--dark-white);
+  margin-bottom: 2rem;
+  padding: var(--padding);
+  text-align: center;
+}
+
+/* Tablet */
+@media only screen and (min-width: 30rem) {
+  /* Base Styling */
+  body {
+    margin: 3rem;
+  }
+}

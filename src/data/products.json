@@ -1,0 +1,26 @@
+[
+  {
+    "href": "/",
+    "imgSrc": "src/images/product-string-of-fishhooks.jpg",
+    "title": "String of Fishhooks 6 Inch Unpotted",
+    "price": 30,
+    "width": "3024",
+    "height": "3024"
+  },
+  {
+    "href": "/",
+    "imgSrc": "src/images/product-tradescantia.jpg",
+    "title": "Tradescantia Nanouk 2 Inch In Ceramic Pot",
+    "price": 17,
+    "width": "3024",
+    "height": "3024"
+  },
+  {
+    "href": "/",
+    "imgSrc": "src/images/product-string-of-dolphins.jpg",
+    "title": "String of Dolphins 2 Inch Unpotted",
+    "price": 8,
+    "width": "3024",
+    "height": "3024"
+  }
+]
